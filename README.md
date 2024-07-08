@@ -1,28 +1,28 @@
-# User Authentication
+# User Authentication 
 
 This project is a full-stack application that provides basic user authentication and management functionalities. It includes signup, login, logout, and reset password functionalities using JWT. Additionally, it offers user management features such as fetching all users, filtering users by name or username, and performing a regular expression search on the address field.
 
 ## Features
 
 1. **User Authentication**:
-   - Signup
-   - Login
-   - Logout
-   - Reset password using JWT
+      - Signup
+      - Login
+      - Logout
+      - Reset password using JWT
   
 2. **User Management**:
-   - Fetch all users
-   - Filter users by username
-   - Regular expression search on the address field
-  
-     ## Technologies Used
+      - Fetch all users
+      - Filter users by username
+      - Regular expression search on the address field
 
-  - Node.js
-  - Express.js
-  - MongoDB
-  - Mongoose
-  - HTML/CSS
-  - JavaScript
+ ## Technologies Used
+
+     - Node.js
+     - Express.js
+     - MongoDB
+     - Mongoose
+     - HTML/CSS
+     - JavaScript
   
 
      ## Installation
@@ -32,7 +32,7 @@ This project is a full-stack application that provides basic user authentication
    ```bash
    git clone https://github.com/gaurav637/Authentication
 
- 2. Navigate to the project directory:
+2. Navigate to the project directory:
     ```bash
     cd userAuthentication
     ```
@@ -55,10 +55,10 @@ This project is a full-stack application that provides basic user authentication
 
 ## Prerequisites
 
-Before you begin, ensure you have met the following requirements:
+   Before you begin, ensure you have met the following requirements:
+   
+   - Node.js and npm installed on your machine.
 
-- Node.js and npm installed on your machine.
+ ## Contributing
 
-  ## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request.    
+   Contributions are welcome! Please open an issue or submit a pull request.    
