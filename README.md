@@ -25,7 +25,7 @@ This project is a full-stack application that provides basic user authentication
      - JavaScript
   
 
-     ## Installation
+## Installation
 
 1. Clone the repository:
 
