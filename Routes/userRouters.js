@@ -6,6 +6,7 @@ import {forgetPassword} from "../controller/resetPassword.js";
 import {allUserData} from "../controller/allUser.js";
 import {getSingleUser} from "../controller/getUserByUsername.js"
 import {verifyToken} from "../middleware/authMiddleware.js";
+import {getUsersByAddress} from "../controller/usersByAddress.js";
 const router = Router();
 
 router.get('/register' , (req,res)=> {
@@ -26,5 +27,6 @@ router.get('/logout',logoutUser);
 router.put('/resetPassword', forgetPassword);
 router.get('/all-users',verifyToken,allUserData);
 router.get('/single-user',verifyToken,getSingleUser);
+router.get('/by-address',getUsersByAddress);
 
 export default router;
